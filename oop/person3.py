@@ -1,4 +1,4 @@
-class Person:
+class Person(object):
     # Class variable
     planet = 'earth'
 

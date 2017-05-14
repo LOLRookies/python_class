@@ -3,7 +3,7 @@ def merge(list_a, list_b):
     index_b = 0
     list_c = []
 
-    for index_a < len(list_a) and index_b < len(list_b):
+    while index_a < len(list_a) and index_b < len(list_b):
         if list_a[index_a] < list_b[index_b]:
             list_c.append(list_a[index_a])
             index_a +=1

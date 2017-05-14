@@ -1,4 +1,4 @@
-def sort(array=[12,4,5,6,7,3,1,15]):
+def sort(array):
     less = []
     equal = []
     greater = []
@@ -20,3 +20,7 @@ def sort(array=[12,4,5,6,7,3,1,15]):
     # Note that you want equal ^^^^^ not pivot
     else:  # You need to hande the part at the end of the recursion - when you only have one element in your array, just return the array.
         return array
+
+
+array = [12,4,5,6,7,3,1,15]
+print sort(array)

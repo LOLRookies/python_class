@@ -4,7 +4,7 @@ for x in range(3):
 
 a = [5, 4, 1, 2, 3]
 
-a.sort ()
+a.sort()
 print a
 
 b = [2, 8, 7, 5, 1]
